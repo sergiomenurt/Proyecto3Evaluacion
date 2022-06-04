@@ -1,5 +1,6 @@
 package CodigoJuegos;
 
+import CodigoJuegos.RompeLadrillos.raqueta;
 import CodigoJuegos.Tractor.Tractor.Principal;
 
 import javax.swing.*;
@@ -15,12 +16,13 @@ public class Main {
                 switch (opcion) {
                     case 1:
                         JOptionPane.showMessageDialog(null, " Has seleccionado la opción 1 ");
-                        Principal.PrimerMinijuego();
+
                     case 2:
                         JOptionPane.showMessageDialog(null, " Has seleccionado la opción 2 ");
                         break;
                     case 3:
                         JOptionPane.showMessageDialog(null, " Has seleccionado la opción 3 ");
+                        Principal.PrimerMinijuego();
                         break;
                     case 4:
                         JOptionPane.showMessageDialog(null, " FIN DEL MINIJUEGO ");
@@ -32,4 +34,4 @@ public class Main {
                 }
             } while (salir=false);
         }
-}
+
